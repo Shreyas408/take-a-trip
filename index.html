@@ -12,7 +12,8 @@
 		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 		<script>
 			$( function() {
-				$( "#datepicker" ).datepicker();
+				$( "#datepicker1" ).datepicker();
+				$("#datepicker2").datepicker();
 			} );
 		</script>
 	</head>
@@ -22,8 +23,8 @@
 
 		<hr>
 
-		<center><textarea id = "from" rows = "1" cols = "40"></textarea> to <textarea id = "to" rows = "1" cols = "40"></textarea><br>
-		<center><textarea id = "from" rows = "1" cols = "40"></textarea> to <textarea id = "to" rows = "1" cols = "40"></textarea><br>
+		<center>Date: <input type="text" id="datepicker1"> to <input type="text" id="datepicker2"><br>
+		Location: <textarea id = "from" rows = "1" cols = "40"></textarea> to <textarea id = "to" rows = "1" cols = "40"></textarea><br>
 		<button type = "find" align = "center" >Find Information</button></center>
 		<!--writing a comment-->
 	</body>	
